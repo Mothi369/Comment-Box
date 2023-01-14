@@ -16,6 +16,8 @@ commentJ.addEventListener("change",function(ele){
 })
 
 function change(){
+    let lcount=0
+    let dcount=0
 
     //creating div inside box2(boxJ)
     let outputBox=document.createElement("div")
@@ -59,8 +61,7 @@ function change(){
     disLikebtn.style.padding="10px"
     buttonSub.appendChild(disLikebtn)
     // count for likes and dislikes
-    let lcount=0
-    let dcount=0
+    
 
    // setting initial values to buttons
     Likebtn.setAttribute("class","fa-solid fa-thumbs-up")
