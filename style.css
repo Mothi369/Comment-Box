@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: white;
+}
+.maincontainer{
+    margin: 20px;
+    border: 2px solid black;
+
+padding: 40px;
+}
+.box1{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: flex-end; */
+padding: 20px;
+margin-bottom: 15px;
+}
+.input1{
+    width:70% ;
+    font-size: 20px;
+
+padding: 10px;
+}
+
+.inputn{
+    height: 40px;
+    margin-left: 15px;
+}
+.inputc{
+    height: 40px;
+    margin-left: 21px;
+}
+#name, #comment{
+    width: 70%;
+}
+.btn1{
+    width: 45%;
+   
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+#addbtn{
+   width: 30%;
+   background-color: blueviolet;
+   color: white;
+   border: none;
+   font-weight: bold;
+   font-size: 15px;
+   letter-spacing:0.1em;
+   padding: 10px;
+   
+   
+}
+#box2{
+    padding: 5px;
+    
+}
+
+
+.outputBox{
+border: 2px solid black;
+padding: 20px;
+margin: 10px;
+}
+.buttonMain{
+    display: flex;
+justify-content: space-between;
+
+padding: 10px;
+
+}
+.buttonSub{
+font-size: 13px;
+font-weight: lighter
+background-color: ;
+}
+.outputbtn{
+    font-size: 20px;
+}
