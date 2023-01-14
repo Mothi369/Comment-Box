@@ -19,18 +19,27 @@ function change(){
     let lcount=0
     let dcount=0
 
-    //creating div inside box2(boxJ)
     let outputBox=document.createElement("div")
+    let nameV=document.createElement("p")
+    let commentV=document.createElement("p")
+    let buttonMain=document.createElement("div")
+    let buttonSub=document.createElement("div")
+    let Likebtn=document.createElement("i")
+    let disLikebtn=document.createElement("i")
+    let deltag=document.createElement("div")
+    let delbtn=document.createElement("i")
+    //creating div inside box2(boxJ)
+    
     outputBox.classList.add("outputBox")
     boxJ.appendChild(outputBox)
 
     //creating para tags for name and comment inside outputBox
 
-    let nameV=document.createElement("p")
+    
     nameV.textContent=outputData.names
     outputBox.appendChild(nameV)
 
-    let commentV=document.createElement("p")
+    
     commentV.textContent=outputData.comments
     outputBox.appendChild(commentV)
 
@@ -39,11 +48,11 @@ function change(){
 
     //creating div tags for like,dislike and delete buttons
 
-    let buttonMain=document.createElement("div")
+    
     buttonMain.classList.add("buttonMain")
     outputBox.appendChild(buttonMain)
 
-    let buttonSub=document.createElement("div")
+    
     buttonSub.classList.add("buttonSub")
     buttonMain.appendChild(buttonSub)
 
@@ -51,12 +60,12 @@ function change(){
 
     
 
-    let Likebtn=document.createElement("i")
+    
     Likebtn.classList.add("outputbtn")
     Likebtn.style.padding="10px"
     buttonSub.appendChild(Likebtn)
 
-    let disLikebtn=document.createElement("i")
+    
     //disLikebtn.classList.add("outputbtn")
     disLikebtn.style.padding="10px"
     buttonSub.appendChild(disLikebtn)
@@ -87,10 +96,10 @@ function change(){
         }
     })
     //creating separate tag for delete
-    let deltag=document.createElement("div")
+    
     buttonMain.appendChild(deltag)
     //creating buttons for delete
-    let delbtn=document.createElement("i")
+    
     delbtn.classList.add("delbtn")
     delbtn.style.color="red"
     deltag.appendChild(delbtn)
